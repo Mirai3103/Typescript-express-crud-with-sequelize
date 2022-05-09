@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .right{
+            
+            width: 30%;
+        }
+        .btn{
+            width: 500px;
+            text-align: center;
+        }
+        table {
+            width: 700px;
+  border-collapse:separate; 
+  border-spacing: 0 0.5em;
+}
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">ĐĂNG KÝ THÀNH VIÊN - NHẬP TÊN SINH VIÊN LÀM BÀI</h1>
+    <form action="#" method="post">
+    <table>
+        <tbody>
+            <tr>
+              <td><b>thông tin tài khoản</b></td>  
+            </tr>
+            <tr>
+                <td class="right">User name:</td>
+                <td><input type="text" placeholder="input username"/></td>
+            </tr>
+            <td class="right">confirm password:</td>
+            <td><input type="password" placeholder="confirm password" /></td>
+            </tr>
+            <tr>
+                <td><b>Thông tin cá nhân</b></td>
+            </tr>
+            <tr>
+                <td class="right">Họ và tên:</td>
+                <td><input type="text" placeholder="Họ và tên"></td>
+            </tr>
+            <tr>
+                <td class="right">Giới tính:</td>
+                <td >
+                    <select>
+                        <option value="1">Nam</option>
+                        <option value="0">nữ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">Địa chỉ:</td>
+                <td><textarea name="" id="" cols="40" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td class="right">Ngày sinh:</td>
+                <td><input type="date" placeholder="dd/mm/yyyy" ></td>
+            </tr>
+            <tr>
+                <td class="right">email</td>
+                <td><input type="email" placeholder="email"></td>
+            </tr>
+            <tr>
+                <td class="right">Tinh trang hon nhan</td>
+                <td>
+                    <input type="radio" name="honnhan">Doc than
+                    <input type="radio" name="honnhan">ly di <br>
+                    <input type="radio" name="honnhan">Hoa phu
+                    <input type="radio" name="honnhan"> da dinh hon
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <div class="btn">
+        <button type="submit">Gui di</button>
+            <button type="reset">Nhap lai</button>
+
+    </div>
+    </form>
+</body>
+</html>
